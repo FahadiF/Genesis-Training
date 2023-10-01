@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>Fahad - Genesys Project 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="landing-page-container">
+        <div class="landing-page-landing-page">
+          <div class="landing-page-footer">
+            <span class="landing-page-text Body16pxRegular">
+              <span class="landing-page-text001">Built by Fahad with</span>
+              <span class="landing-page-text002">love</span>
+              <span class="landing-page-text003">
+                .&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Copyright 2023
+              </span>
+            </span>
+            <div class="landing-page-section5">
+              <span class="landing-page-text004 Body16pxRegular">
+                <span>Help support</span>
+              </span>
+              <span class="landing-page-text006 Body16pxRegular">
+                <span>FAQ</span>
+              </span>
+              <span class="landing-page-text008 HeadingBoldHeading6-16px">
+                <span>Help</span>
+              </span>
+            </div>
+            <div class="landing-page-section4">
+              <span class="landing-page-text010 Body16pxRegular">
+                <span>Contact Us</span>
+              </span>
+              <span class="landing-page-text012 Body16pxRegular">
+                <span>Career</span>
+              </span>
+              <span class="landing-page-text014 Body16pxRegular">
+                <span>About</span>
+              </span>
+              <span class="landing-page-text016 HeadingBoldHeading6-16px">
+                <span>Company</span>
+              </span>
+            </div>
+            <div class="landing-page-section3">
+              <span class="landing-page-text018 Body16pxRegular">
+                <span>Hosting Unlimited</span>
+              </span>
+              <span class="landing-page-text020 Body16pxRegular">
+                <span>Email Hosting</span>
+              </span>
+              <span class="landing-page-text022 Body16pxRegular">
+                <span>Hosting Wordpress</span>
+              </span>
+              <span class="landing-page-text024 Body16pxRegular">
+                <span>Cheap Hosting</span>
+              </span>
+              <span class="landing-page-text026 HeadingBoldHeading6-16px">
+                <span>Hosting</span>
+              </span>
+            </div>
+            <div class="landing-page-section2">
+              <span class="landing-page-text028 Body16pxRegular">
+                <span>Private Hosting</span>
+              </span>
+              <span class="landing-page-text030 Body16pxRegular">
+                <span>Cloud Hosting</span>
+              </span>
+              <span class="landing-page-text032 Body16pxRegular">
+                <span>Shared Hosting</span>
+              </span>
+              <span class="landing-page-text034 Body16pxRegular">
+                <span>Domain</span>
+              </span>
+              <span class="landing-page-text036 HeadingBoldHeading6-16px">
+                <span>Service</span>
+              </span>
+            </div>
+            <div class="landing-page-section1">
+              <span class="landing-page-text038 Body16pxRegular">
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+                  aliquam, purus sit amet luctus venenatis, lectus magna
+                  fringilla urna, porttitor rhoncus dolor purus non enim
+                  praesent elem
+                </span>
+              </span>
+            </div>
+            <img
+              src="public/external/heart2266-kvq.svg"
+              alt="heart2266"
+              class="landing-page-heart"
+            />
+            <img
+              src="public/external/lemonwareswhitelogo1500pxwide12268-kf3v-200h.png"
+              alt="LemonWareswhiteLogo1500pxwide12268"
+              class="landing-page-lemon-wareswhite-logo1500pxwide1"
+            />
+          </div>
+          <div class="landing-page-cta">
+            <img
+              src="public/external/background2270-ck28-500h.png"
+              alt="Background2270"
+              class="landing-page-background"
+            />
+            <div class="landing-page-elements">
+              <img
+                src="public/external/elements2272-zld1.svg"
+                alt="Elements2272"
+                class="landing-page-elements1"
+              />
+              <img
+                src="public/external/elements2273-vwg.svg"
+                alt="Elements2273"
+                class="landing-page-elements2"
+              />
+              <img
+                src="public/external/elements2274-ij7m.svg"
+                alt="Elements2274"
+                class="landing-page-elements3"
+              />
+            </div>
+            <button class="landing-page-button">
+              <span class="landing-page-text040">
+                <span>Get in touch with us</span>
+              </span>
+              <img
+                src="public/external/whatsapp2277-g18.svg"
+                alt="whatsapp2277"
+                class="landing-page-whatsapp"
+              />
+            </button>
+            <span class="landing-page-text042">
+              <span>We're here to make your website awesome.</span>
+            </span>
+          </div>
+          <div class="landing-page-testimonials">
+            <div class="landing-page-group5">
+              <div class="landing-page-group3">
+                <img
+                  src="public/external/quotemark2283-g6k.svg"
+                  alt="QuoteMark2283"
+                  class="landing-page-quote-mark"
+                />
+                <div class="landing-page-testimonial1">
+                  <div class="landing-page-content">
+                    <div class="landing-page-quote-mark1">
+                      <div class="landing-page-page1">
+                        <div class="landing-page-customers">
+                          <div class="landing-page-testimonials1">
+                            <img
+                              src="public/external/svg2291-d3x8.svg"
+                              alt="SVG2291"
+                              class="landing-page-svg"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="landing-page-feedback-person-details">
+                      <span class="landing-page-text044 Body16pxRegular">
+                        <span>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit ut aliquam, purus sit amet luctus venenatis,
+                          lectus magna fringilla urna, porttitor rhoncus dolor
+                          purus non enim praesent elem
+                        </span>
+                      </span>
+                      <div class="landing-page-person-details">
+                        <span class="landing-page-text046 SubtitleSubtitle1">
+                          <span>Jane Cooper</span>
+                        </span>
+                        <span class="landing-page-text048 LeadLead2">
+                          <span>CEO, JPNL</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    src="public/external/jerrypipingbwoyl3forlrwur6778abi56lm69f24r157w64c92297-0odm-200h.png"
+                    alt="JerryPipingbwoyl3forlrwur6778abi56lm69f24r157w64c92297"
+                    class="landing-page-jerry-pipingbwoyl3forlrwur6778abi56lm69f24r157w64c9"
+                  />
+                </div>
+                <div class="landing-page-testimonial2">
+                  <div class="landing-page-content1">
+                    <div class="landing-page-quote-mark2">
+                      <div class="landing-page-page11">
+                        <div class="landing-page-customers1">
+                          <div class="landing-page-testimonials2">
+                            <img
+                              src="public/external/svg2210-xttp.svg"
+                              alt="SVG2210"
+                              class="landing-page-svg1"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="landing-page-feedback-person-details1">
+                      <span class="landing-page-text050 LeadLead1">
+                        <span>
+                          LemonWares saved our time in Hosting my company page.
+                        </span>
+                      </span>
+                      <div class="landing-page-person-details1">
+                        <span class="landing-page-text052 SubtitleSubtitle1">
+                          <span>Kristin Watson</span>
+                        </span>
+                        <span class="landing-page-text054 LeadLead2">
+                          <span>Co-Founder, LeeveOn Branding</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    src="public/external/leeveonbrandingbwoyl3fl090kplvrcow9vmwmkbvvknw8qaj2211-9dw-200h.png"
+                    alt="LeeveOnBrandingbwoyl3fl090kplvrcow9vmwmkbvvknw8qaj2211"
+                    class="landing-page-leeve-on-brandingbwoyl3fl090kplvrcow9vmwmkbvvknw8qaj"
+                  />
+                </div>
+                <div class="landing-page-testimonial3">
+                  <div class="landing-page-content2">
+                    <div class="landing-page-quote-mark3">
+                      <div class="landing-page-page12">
+                        <div class="landing-page-customers2">
+                          <div class="landing-page-testimonials3">
+                            <img
+                              src="public/external/svg2211-vzh.svg"
+                              alt="SVG2211"
+                              class="landing-page-svg2"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="landing-page-feedback-person-details2">
+                      <span class="landing-page-text056 Body16pxRegular">
+                        <span>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit ut aliquam, purus sit amet luctus venenatis,
+                          lectus magna fringilla urna, porttitor rhoncus dolor
+                          purus non enim praesent elem
+                        </span>
+                      </span>
+                      <div class="landing-page-person-details2">
+                        <span class="landing-page-text058 SubtitleSubtitle1">
+                          <span>Floyd Miles</span>
+                        </span>
+                        <span class="landing-page-text060 LeadLead2">
+                          <span>Vice President, CLI</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <img
+                    src="public/external/cryptolearninvestbwoyl3g9g1y9n29md6xkfxpgebbw87gdf2212-spgaj-200h.png"
+                    alt="CryptoLearnInvestbwoyl3g9g1y9n29md6xkfxpgebbw87gdf2212"
+                    class="landing-page-crypto-learn-investbwoyl3g9g1y9n29md6xkfxpgebbw87gdf"
+                  />
+                </div>
+                <div class="landing-page-section-heading">
+                  <div class="landing-page-section-heading1">
+                    <span class="landing-page-text062 HeadingH2">
+                      <span>Real Stories from Real Customers</span>
+                    </span>
+                  </div>
+                  <span class="landing-page-text064 LeadLead1">
+                    <span>Get inspired by these stories.</span>
+                  </span>
+                </div>
+              </div>
+              <div class="landing-page-group4">
+                <div class="landing-page-section-heading2">
+                  <div class="landing-page-section-heading3">
+                    <span class="landing-page-text066 HeadingH2">
+                      <span>
+                        <span>We serve over 100</span>
+                        <br />
+                        <span>Nigerian Websites</span>
+                      </span>
+                    </span>
+                  </div>
+                  <span class="landing-page-text071 LeadLead1">
+                    <span>
+                      Connect LemonWares with your favourite tools that you use
+                      daily and keep things on track.
+                    </span>
+                  </span>
+                </div>
+                <img
+                  src="public/external/cryptolearninvestbwoyl3g9g1y9n29md6xkfxpgebbw87gdf2213-8vg-200h.png"
+                  alt="CryptoLearnInvestbwoyl3g9g1y9n29md6xkfxpgebbw87gdf2213"
+                  class="landing-page-crypto-learn-investbwoyl3g9g1y9n29md6xkfxpgebbw87gdf1"
+                />
+                <img
+                  src="public/external/jrangoglassesbwoyl3fi6qg2lqwxgscqnr759y3pyk95f3j9j2213-a1ha-200h.png"
+                  alt="JrangoGlassesbwoyl3fi6qg2lqwxgscqnr759y3pyk95f3j9j2213"
+                  class="landing-page-jrango-glassesbwoyl3fi6qg2lqwxgscqnr759y3pyk95f3j9j"
+                />
+                <img
+                  src="public/external/koranescentsbwoyl3fj4kmwn18jff792drn1ep3txguitve7f2213-ut0p-200h.png"
+                  alt="KoraneScentsbwoyl3fj4kmwn18jff792drn1ep3txguitve7f2213"
+                  class="landing-page-korane-scentsbwoyl3fj4kmwn18jff792drn1ep3txguitve7f"
+                />
+                <img
+                  src="public/external/leeveonbrandingbwoyl3fl090kplvrcow9vmwmkbvvknw8qaj2213-6h68-200h.png"
+                  alt="LeeveOnBrandingbwoyl3fl090kplvrcow9vmwmkbvvknw8qaj2213"
+                  class="landing-page-leeve-on-brandingbwoyl3fl090kplvrcow9vmwmkbvvknw8qaj1"
+                />
+                <img
+                  src="public/external/nadineghaidabwoyl3fly37eqw7dbbqsa9h4bsh9g13xu0vs5v2213-zk4o-200h.png"
+                  alt="NadineGhaidabwoyl3fly37eqw7dbbqsa9h4bsh9g13xu0vs5v2213"
+                  class="landing-page-nadine-ghaidabwoyl3fly37eqw7dbbqsa9h4bsh9g13xu0vs5v"
+                />
+                <img
+                  src="public/external/jerrypipingbwoyl3forlrwur6778abi56lm69f24r157w64c92213-3k07-200h.png"
+                  alt="JerryPipingbwoyl3forlrwur6778abi56lm69f24r157w64c92213"
+                  class="landing-page-jerry-pipingbwoyl3forlrwur6778abi56lm69f24r157w64c91"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="landing-page-pricing">
+            <div class="landing-page-group2">
+              <div class="landing-page-price-header">
+                <div class="landing-page-group1">
+                  <span class="landing-page-text073">
+                    <span>
+                      <span>Ready to get started with</span>
+                      <br />
+                      <span>Lemon Wares?</span>
+                    </span>
+                  </span>
+                  <span class="landing-page-text078">
+                    <span>Choose the package that suits you</span>
+                  </span>
+                  <img
+                    src="public/external/rectangle142214-dwsb-200h.png"
+                    alt="Rectangle142214"
+                    class="landing-page-rectangle14"
+                  />
+                  <img
+                    src="public/external/ellipse12214-07ig-200h.png"
+                    alt="Ellipse12214"
+                    class="landing-page-ellipse1"
+                  />
+                  <img
+                    src="public/external/rectangle152214-gnv-200h.png"
+                    alt="Rectangle152214"
+                    class="landing-page-rectangle15"
+                  />
+                  <span class="landing-page-text080">
+                    <span>20% discount</span>
+                  </span>
+                  <img
+                    src="public/external/rectangle162214-v89-200h.png"
+                    alt="Rectangle162214"
+                    class="landing-page-rectangle16"
+                  />
+                  <img
+                    src="public/external/rectangle202215-w4n-200h.png"
+                    alt="Rectangle202215"
+                    class="landing-page-rectangle20"
+                  />
+                  <span class="landing-page-text082"><span>Basic</span></span>
+                  <span class="landing-page-text084"><span>Premium</span></span>
+                  <span class="landing-page-text086"><span>Monthly</span></span>
+                  <span class="landing-page-text088"><span>Yearly</span></span>
+                </div>
+              </div>
+              <div class="landing-page-price-field">
+                <img
+                  src="public/external/rectangle172218-9hdb-800h.png"
+                  alt="Rectangle172215"
+                  class="landing-page-rectangle17"
+                />
+                <span class="landing-page-text090">
+                  <span>
+                    with all your customers via all conversation channels in one
+                    central dashboard.
+                  </span>
+                </span>
+                <img
+                  src="public/external/rectangle212215-5fxd-200h.png"
+                  alt="Rectangle212215"
+                  class="landing-page-rectangle21"
+                />
+                <span class="landing-page-text092">
+                  <span>Choose this Plan</span>
+                </span>
+                <div class="landing-page-list">
+                  <img
+                    src="public/external/checkmark2216-hty.svg"
+                    alt="Checkmark2216"
+                    class="landing-page-checkmark"
+                  />
+                  <span class="landing-page-text094 HeadingBoldHeading6-16px">
+                    <span>
+                      <span>2GB SSD</span>
+                      <br />
+                      <span></span>
+                    </span>
+                  </span>
+                </div>
+                <div class="landing-page-list01">
+                  <img
+                    src="public/external/checkmark2216-n0jm.svg"
+                    alt="Checkmark2216"
+                    class="landing-page-checkmark01"
+                  />
+                  <span class="landing-page-text099">
+                    <span>10GB Bandwidth</span>
+                  </span>
+                </div>
+                <div class="landing-page-list02">
+                  <span class="landing-page-text101">
+                    <span>15 Email Accounts</span>
+                  </span>
+                  <img
+                    src="public/external/checkmark2216-wzyi.svg"
+                    alt="Checkmark2216"
+                    class="landing-page-checkmark02"
+                  />
+                </div>
+                <div class="landing-page-list03">
+                  <span class="landing-page-text103 HeadingBoldHeading6-16px">
+                    <span>Unlimited Database</span>
+                  </span>
+                  <img
+                    src="public/external/checkmark2217-lpnh.svg"
+                    alt="Checkmark2217"
+                    class="landing-page-checkmark03"
+                  />
+                </div>
+                <div class="landing-page-list04">
+                  <span class="landing-page-text105">
+                    <span>4 Subdomains</span>
+                  </span>
+                  <img
+                    src="public/external/checkmark2217-xt6.svg"
+                    alt="Checkmark2217"
+                    class="landing-page-checkmark04"
+                  />
+                </div>
+                <div class="landing-page-list05">
+                  <img
+                    src="public/external/checkmark2217-bk3.svg"
+                    alt="Checkmark2217"
+                    class="landing-page-checkmark05"
+                  />
+                  <span class="landing-page-text107">
+                    <span>1 Parked Domain</span>
+                  </span>
+                </div>
+                <div class="landing-page-list06">
+                  <img
+                    src="public/external/checkmark2217-w6zn.svg"
+                    alt="Checkmark2217"
+                    class="landing-page-checkmark06"
+                  />
+                  <span class="landing-page-text109">
+                    <span>2 Websites</span>
+                  </span>
+                </div>
+                <span class="landing-page-text111"><span>Starter</span></span>
+                <span class="landing-page-text113"><span>$2.80</span></span>
+                <span class="landing-page-text115"><span>Per month</span></span>
+                <img
+                  src="public/external/vector2218-xaho.svg"
+                  alt="Vector2218"
+                  class="landing-page-vector"
+                />
+                <span class="landing-page-text117"><span>Free SSL</span></span>
+                <img
+                  src="public/external/checkmark2218-f64.svg"
+                  alt="Checkmark2218"
+                  class="landing-page-checkmark07"
+                />
+                <span class="landing-page-text119">
+                  <span>Softaculous</span>
+                </span>
+              </div>
+              <div class="landing-page-price-field1">
+                <img
+                  src="public/external/rectangle172218-9hdb-800h.png"
+                  alt="Rectangle172218"
+                  class="landing-page-rectangle171"
+                />
+                <span class="landing-page-text121">
+                  <span>
+                    with all your customers via all conversation channels in one
+                    central dashboard.
+                  </span>
+                </span>
+                <img
+                  src="public/external/rectangle212219-8bwo-200h.png"
+                  alt="Rectangle212219"
+                  class="landing-page-rectangle211"
+                />
+                <span class="landing-page-text123">
+                  <span>Choose this Plan</span>
+                </span>
+                <div class="landing-page-list07">
+                  <img
+                    src="public/external/checkmark2219-9dg.svg"
+                    alt="Checkmark2219"
+                    class="landing-page-checkmark08"
+                  />
+                  <span class="landing-page-text125 HeadingBoldHeading6-16px">
+                    <span>
+                      <span>2GB SSD</span>
+                      <br />
+                      <span></span>
+                    </span>
+                  </span>
+                </div>
+                <div class="landing-page-list08">
+                  <img
+                    src="public/external/checkmark2219-z9ute.svg"
+                    alt="Checkmark2219"
+                    class="landing-page-checkmark09"
+                  />
+                  <span class="landing-page-text130">
+                    <span>10GB Bandwidth</span>
+                  </span>
+                </div>
+                <div class="landing-page-list09">
+                  <span class="landing-page-text132">
+                    <span>15 Email Accounts</span>
+                  </span>
+                  <img
+                    src="public/external/checkmark2220-voje.svg"
+                    alt="Checkmark2220"
+                    class="landing-page-checkmark10"
+                  />
+                </div>
+                <div class="landing-page-list10">
+                  <span class="landing-page-text134 HeadingBoldHeading6-16px">
+                    <span>Unlimited Database</span>
+                  </span>
+                  <img
+                    src="public/external/checkmark2220-gtv.svg"
+                    alt="Checkmark2220"
+                    class="landing-page-checkmark11"
+                  />
+                </div>
+                <div class="landing-page-list11">
+                  <span class="landing-page-text136">
+                    <span>4 Subdomains</span>
+                  </span>
+                  <img
+                    src="public/external/checkmark2220-95wo.svg"
+                    alt="Checkmark2220"
+                    class="landing-page-checkmark12"
+                  />
+                </div>
+                <div class="landing-page-list12">
+                  <img
+                    src="public/external/checkmark2220-w5t.svg"
+                    alt="Checkmark2220"
+                    class="landing-page-checkmark13"
+                  />
+                  <span class="landing-page-text138">
+                    <span>1 Parked Domain</span>
+                  </span>
+                </div>
+                <div class="landing-page-list13">
+                  <img
+                    src="public/external/checkmark2221-o1n.svg"
+                    alt="Checkmark2221"
+                    class="landing-page-checkmark14"
+                  />
+                  <span class="landing-page-text140">
+                    <span>2 Websites</span>
+                  </span>
+                </div>
+                <span class="landing-page-text142"><span>Standard</span></span>
+                <span class="landing-page-text144"><span>$4.20</span></span>
+                <span class="landing-page-text146"><span>Per month</span></span>
+                <img
+                  src="public/external/vector2221-yd5d.svg"
+                  alt="Vector2221"
+                  class="landing-page-vector01"
+                />
+                <span class="landing-page-text148"><span>Free SSL</span></span>
+                <img
+                  src="public/external/checkmark2221-7prc.svg"
+                  alt="Checkmark2221"
+                  class="landing-page-checkmark15"
+                />
+                <span class="landing-page-text150">
+                  <span>Softaculous</span>
+                </span>
+              </div>
+              <div class="landing-page-price-field2">
+                <img
+                  src="public/external/rectangle172222-70id-800h.png"
+                  alt="Rectangle172222"
+                  class="landing-page-rectangle172"
+                />
+                <span class="landing-page-text152">
+                  <span>
+                    with all your customers via all conversation channels in one
+                    central dashboard.
+                  </span>
+                </span>
+                <img
+                  src="public/external/rectangle212222-xepe-200h.png"
+                  alt="Rectangle212222"
+                  class="landing-page-rectangle212"
+                />
+                <span class="landing-page-text154">
+                  <span>Choose this Plan</span>
+                </span>
+                <div class="landing-page-list14">
+                  <img
+                    src="public/external/checkmark2222-95ue.svg"
+                    alt="Checkmark2222"
+                    class="landing-page-checkmark16"
+                  />
+                  <span class="landing-page-text156 HeadingBoldHeading6-16px">
+                    <span>
+                      <span>2GB SSD</span>
+                      <br />
+                      <span></span>
+                    </span>
+                  </span>
+                </div>
+                <div class="landing-page-list15">
+                  <img
+                    src="public/external/checkmark2223-4ha4q.svg"
+                    alt="Checkmark2223"
+                    class="landing-page-checkmark17"
+                  />
+                  <span class="landing-page-text161">
+                    <span>10GB Bandwidth</span>
+                  </span>
+                </div>
+                <div class="landing-page-list16">
+                  <span class="landing-page-text163">
+                    <span>15 Email Accounts</span>
+                  </span>
+                  <img
+                    src="public/external/checkmark2223-8ziv.svg"
+                    alt="Checkmark2223"
+                    class="landing-page-checkmark18"
+                  />
+                </div>
+                <div class="landing-page-list17">
+                  <span class="landing-page-text165 HeadingBoldHeading6-16px">
+                    <span>Unlimited Database</span>
+                  </span>
+                  <img
+                    src="public/external/checkmark2223-jb0j.svg"
+                    alt="Checkmark2223"
+                    class="landing-page-checkmark19"
+                  />
+                </div>
+                <div class="landing-page-list18">
+                  <span class="landing-page-text167">
+                    <span>4 Subdomains</span>
+                  </span>
+                  <img
+                    src="public/external/checkmark2224-jyzd.svg"
+                    alt="Checkmark2224"
+                    class="landing-page-checkmark20"
+                  />
+                </div>
+                <div class="landing-page-list19">
+                  <img
+                    src="public/external/checkmark2224-2g1k.svg"
+                    alt="Checkmark2224"
+                    class="landing-page-checkmark21"
+                  />
+                  <span class="landing-page-text169">
+                    <span>1 Parked Domain</span>
+                  </span>
+                </div>
+                <div class="landing-page-list20">
+                  <img
+                    src="public/external/checkmark2224-4ieg.svg"
+                    alt="Checkmark2224"
+                    class="landing-page-checkmark22"
+                  />
+                  <span class="landing-page-text171">
+                    <span>2 Websites</span>
+                  </span>
+                </div>
+                <span class="landing-page-text173"><span>Suprem</span></span>
+                <span class="landing-page-text175"><span>$7.00</span></span>
+                <span class="landing-page-text177"><span>Per month</span></span>
+                <img
+                  src="public/external/vector2225-9luwa.svg"
+                  alt="Vector2225"
+                  class="landing-page-vector02"
+                />
+                <span class="landing-page-text179"><span>Free SSL</span></span>
+                <img
+                  src="public/external/checkmark2225-gugf.svg"
+                  alt="Checkmark2225"
+                  class="landing-page-checkmark23"
+                />
+                <span class="landing-page-text181">
+                  <span>Softaculous</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="landing-page-why-us">
+            <div class="landing-page-uptime">
+              <span class="landing-page-text183">
+                <span>99.9% Uptime</span>
+              </span>
+              <span class="landing-page-text185">
+                <span>
+                  <span>We Keep Your Web build Online 24x7x365.</span>
+                  <br />
+                  <span>
+                    Downtime not only costs you lost visitors but also damages
+                    your reputation and search engine rankings.
+                  </span>
+                </span>
+              </span>
+              <img
+                src="public/external/icn112225-5boq.svg"
+                alt="icn112225"
+                class="landing-page-icn11"
+              />
+            </div>
+            <div class="landing-page-ups">
+              <div class="landing-page-frame1">
+                <div class="landing-page-icon">
+                  <img
+                    src="public/external/vector2227-at9r.svg"
+                    alt="Vector2227"
+                    class="landing-page-vector03"
+                  />
+                  <img
+                    src="public/external/vector2227-qjw.svg"
+                    alt="Vector2227"
+                    class="landing-page-vector04"
+                  />
+                  <img
+                    src="public/external/vector2227-428m.svg"
+                    alt="Vector2227"
+                    class="landing-page-vector05"
+                  />
+                  <img
+                    src="public/external/vector2227-uj3o.svg"
+                    alt="Vector2227"
+                    class="landing-page-vector06"
+                  />
+                </div>
+              </div>
+              <span class="landing-page-text190">
+                <span>Blazing Fast Web Hosting</span>
+              </span>
+              <span class="landing-page-text192">
+                <span>
+                  <span>We Keep Your Web build Online 24x7x365.</span>
+                  <br />
+                  <span>
+                    Downtime not only costs you lost visitors but also damages
+                    your reputation and search engine rankings.
+                  </span>
+                </span>
+              </span>
+            </div>
+            <div class="landing-page-ssl">
+              <span class="landing-page-text197">
+                <span>Free SSL Certificates</span>
+              </span>
+              <span class="landing-page-text199">
+                <span>
+                  <span>We Keep Your Web build Online 24x7x365.</span>
+                  <br />
+                  <span>
+                    Downtime not only costs you lost visitors but also damages
+                    your reputation and search engine rankings.
+                  </span>
+                </span>
+              </span>
+              <img
+                src="public/external/icn412228-5d0q.svg"
+                alt="icn412228"
+                class="landing-page-icn41"
+              />
+            </div>
+            <div class="landing-page-frame247">
+              <span class="landing-page-text204">
+                <span>24x7 Friendly Support</span>
+              </span>
+              <span class="landing-page-text206">
+                <span>
+                  <span>We Keep Your Web build Online 24x7x365.</span>
+                  <br />
+                  <span>
+                    Downtime not only costs you lost visitors but also damages
+                    your reputation and search engine rankings.
+                  </span>
+                </span>
+              </span>
+              <div class="landing-page-frame2">
+                <div class="landing-page-frame247icon">
+                  <img
+                    src="public/external/vector2229-8l1.svg"
+                    alt="Vector2229"
+                    class="landing-page-vector07"
+                  />
+                  <img
+                    src="public/external/vector2230-hg9u.svg"
+                    alt="Vector2230"
+                    class="landing-page-vector08"
+                  />
+                  <img
+                    src="public/external/vector2230-b4ud.svg"
+                    alt="Vector2230"
+                    class="landing-page-vector09"
+                  />
+                </div>
+              </div>
+            </div>
+            <span class="landing-page-text211 HeadingH2">
+              <span>True Cloud Web Hosting</span>
+            </span>
+            <span class="landing-page-text213 LeadLead1">
+              <span>
+                <span></span>
+                <br />
+                <span>
+                  True Cloud Web Hosting All of the hosting packages we offer
+                  are deployed instantly on our SSD powered cloud. We don’t use
+                  dedicated servers that operate on single pieces of hardware.
+                  Our entire infrastructure is built to be reliable, secure, and
+                  scalable.
+                </span>
+                <br />
+                <span></span>
+                <br />
+                <span></span>
+              </span>
+            </span>
+            <img
+              src="public/external/rectangle112230-c8km-200h.png"
+              alt="Rectangle112230"
+              class="landing-page-rectangle11"
+            />
+            <img
+              src="public/external/rectangle122231-35nj-200h.png"
+              alt="Rectangle122231"
+              class="landing-page-rectangle12"
+            />
+            <img
+              src="public/external/rectangle132231-46nx-200h.png"
+              alt="Rectangle132231"
+              class="landing-page-rectangle13"
+            />
+            <img
+              src="public/external/cpanelorangergb12231-6bx-200h.png"
+              alt="cPanelorangeRGB12231"
+              class="landing-page-c-panelorange-rgb1"
+            />
+            <img
+              src="public/external/securedbyimunify360green12231-11io-200h.png"
+              alt="securedbyImunify360green12231"
+              class="landing-page-securedby-imunify360green1"
+            />
+            <img
+              src="public/external/litespeedlogo12231-xuy.svg"
+              alt="litespeedlogo12231"
+              class="landing-page-litespeedlogo1"
+            />
+          </div>
+          <div class="landing-page-hero">
+            <div class="landing-page-group6">
+              <img
+                src="public/external/rectangle222232-n868-600w.png"
+                alt="Rectangle222232"
+                class="landing-page-rectangle22"
+              />
+              <div class="landing-page-elements4">
+                <img
+                  src="public/external/elements2233-qmw.svg"
+                  alt="Elements2233"
+                  class="landing-page-elements5"
+                />
+                <img
+                  src="public/external/elements2233-jr0w.svg"
+                  alt="Elements2233"
+                  class="landing-page-elements6"
+                />
+                <img
+                  src="public/external/elements2233-qre.svg"
+                  alt="Elements2233"
+                  class="landing-page-elements7"
+                />
+              </div>
+            </div>
+            <button class="landing-page-button1">
+              <span class="landing-page-text222">
+                <span>Choose your plan</span>
+              </span>
+            </button>
+            <button class="landing-page-button2">
+              <span class="landing-page-text224">
+                <span>Create an Account</span>
+              </span>
+            </button>
+            <span class="landing-page-text226">
+              <span>
+                Blazing fast web hosting for individuals and businesses of all
+                sizes backed by 24x7x365 Support.
+              </span>
+            </span>
+            <span class="landing-page-text228">
+              <span>Premium Web Hosting for Your Website</span>
+            </span>
+            <div class="landing-page-breadcrunch">
+              <span class="landing-page-text230"><span>Hosting</span></span>
+              <span class="landing-page-text232"><span>Domain</span></span>
+              <span class="landing-page-text234"><span>SEO</span></span>
+              <span class="landing-page-text236"><span>Email</span></span>
+              <img
+                src="public/external/rectangle62234-4qq9-200h.png"
+                alt="Rectangle62234"
+                class="landing-page-rectangle6"
+              />
+              <img
+                src="public/external/rectangle72234-m7li-200h.png"
+                alt="Rectangle72234"
+                class="landing-page-rectangle7"
+              />
+            </div>
+          </div>
+          <div class="landing-page-navbar">
+            <img
+              src="public/external/rectangle32234-rzbm-200h.png"
+              alt="Rectangle32234"
+              class="landing-page-rectangle3"
+            />
+            <span class="landing-page-text238"><span>Our Services</span></span>
+            <span class="landing-page-text240"><span>About</span></span>
+            <span class="landing-page-text242"><span>Blog&amp;News</span></span>
+            <span class="landing-page-text244"><span>Contact</span></span>
+            <img
+              src="public/external/rectangle42235-hmk-200h.png"
+              alt="Rectangle42235"
+              class="landing-page-rectangle4"
+            />
+            <span class="landing-page-text246"><span>Account</span></span>
+            <span class="landing-page-text248">
+              <span>
+                <span></span>
+                <br />
+                <span>+2349067322844</span>
+                <br />
+                <span></span>
+              </span>
+            </span>
+            <img
+              src="public/external/phone2235-b0a4.svg"
+              alt="phone2235"
+              class="landing-page-phone"
+            />
+            <img
+              src="public/external/rectangle52235-tnl-200w.png"
+              alt="Rectangle52235"
+              class="landing-page-rectangle5"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
